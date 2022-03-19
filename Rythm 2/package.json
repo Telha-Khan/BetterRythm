@@ -1,11 +1,19 @@
 {
   "name": "rythm-2",
   "version": "1.0.0",
-  "description": "",
   "main": "RythmRemastered.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon RythmRemastered.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "dotenv": "^16.0.0",
+    "enmap": "^5.8.8",
+    "nodemon": "^2.0.15",
+    "random-puppy": "^1.1.0"
+  },
+  "description": ""
 }
